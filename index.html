@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+	<link rel="stylesheet" type="text/css" href="file:///C:/Users/SAYALI/Downloads/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css">
+	
+	<title>Google</title>
+	<script type="text/javascript">
+		function load()
+		{
+			var ch=document.getElementById("search").value;
+			window.location.href="https://www.google.com/search?q="+ch;//main logic (query string)
+		}
+	</script>
+	</head>
+
+	<body>
+		<div class="bgimage">
+		<div class="header1">
+			<a href="#">About <i class="fas fa-address-card"></i></a>
+			<a href="#">Settings <i class="fas fa-cogs"></i></a>
+			<a href="#">Privacy <i class="fas fa-user-secret"></i></a>
+			<a href="#">Terms <i class="far fa-sticky-note"></i></a>
+			<button>Sign in</button>	
+		</div>
+
+		<div class="main1">
+			<div class="logo-img1">
+				<img src="logo.png">
+			</div>
+            <div class="sear-box">
+            	<input type="text" name="txtname" id="search" placeholder="Search or Enter URL">
+
+            </div>   
+            <div class="serbut">
+            	<button onclick="load()">Explorer Search <i class="fab fa-searchengin"></i></button>
+            	<button>Explore Discover</button>
+            </div>
+		</div>
+
+		<div class="footer1">
+			<div class="country">
+				<span>India</span>
+			</div>
+
+			<div class="footer-links">
+				<div class="footer-left">
+				<a href="#">Advertising</a>
+				<a href="#">Business</a>
+		        <a href="#">Help <i class="fas fa-info-circle"></i></a>
+				</div>	
+			</div>
+		</div>
+		
+	</div>
+	</body>
+</html>	
